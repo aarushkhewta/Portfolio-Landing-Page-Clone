@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    text-decoration:none;
+    padding: 0px 40px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.hero{
+    width:100%;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1920x1080-2-5.jpg");
+    background-size: cover;
+    height: 800px;
+    background-position: center 0px;
+}
+
+.home{
+    margin-left:80px;
+    padding-top:180px;
+    color:white;
+}
+
+.card{
+    margin-left: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.home h2{
+    font-size:60px;
+}
+
+.home h3{
+    font-size:22px;
+    font-weight:400;
+}
+
+nav ul{
+    display: flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left: 50px;
+}
+
+.icons{
+    bottom: 40px;
+    left: 50px;
+    position: absolute;
+}
+
+.portfolio{
+    display:flex;
+    padding: 120px;
+}
+
+.quality{
+    background:#1d0d5a;
+    padding:100px ;
+    margin-top: 100px;
+}
+
+.portfolio-images{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:-220px;      
+}
+
+.portfolio-images img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+}
+
+.quality-content{
+    display:flex;
+    align-items:center;
+    margin-top:80px;
+    margin-left: 300px;
+}
+
+.quality-text{
+    width:60%;
+}
+
+.quality-text h2{
+    color:white;
+    font-size:45px;
+    margin-bottom:25px;
+}
+
+.quality-text p{
+    color:#d7d7d7;
+    font-size:22px;
+    line-height:1.8;
+}
+
+.quality-icon img{
+    width:200px;
+    height: 200px;
+
+}
+
+.about1{
+    display: flex;
+    align-items:center;
+    gap: 160px;
+    font-size:22px;
+}
+.about1 h2{
+    font-size: 30px;
+}
+
+.about1 p{
+    font-size: 20px;
+}
+
+.about1 ul{
+    font-size: 25px;
+}
+.btn{
+    background-color: #1d0d5a;
+    color: aliceblue;
+    padding:15px;
+}
+
+.about1 img{
+    width: 900px;
+    height: 900px;
+}
+
+.about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+   
+}
+
+.abt2{
+    padding-left: 230px;
+}
+
+.about2 h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.about2 h3{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.about2 h4{
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.about2 p{
+    font-size: 17px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about2 img{
+    width: 900px;
+    height: 900px;
+}
+
+.about3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 300px;
+}
+
+.about3 img{
+    width: 900px;
+    height: 900px;
+    margin-bottom: 70px;
+}
+
+.about3 h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.about3 h3{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about3 h4{
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.about3 p{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.featuredservices{
+    text-align: center;
+}
+
+.featuredservices h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#24135f;
+    margin-bottom:20px;
+}
+.featuredservices h3{
+    font-size: 20px;
+}
+
+.services-images{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.service-card{
+    width: 300px;
+    text-align: center;
+}
+
+.service-card img{
+    width: 300px;
+    height: 300px;
+}
+
+.service-card h3{
+    margin: 20px ;
+    font-size: 22px;
+}
+
+.skill-box{
+    background: #fff;
+    padding: 18px 0;
+    margin-top: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.test{
+    margin-top: 120px;
+    background-image: url("http://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1920x1080-1-7.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.test-cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.test .card{
+    width: 300px;
+    height: 200px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.person{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:auto;
+}
+
+.person img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.logo1{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    padding-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact{
+    display: flex;
+    height: 700px;
+    margin-top: 80px;
+}
+
+.left{
+    width: 50%;
+    padding: 120px 0 120px 180px;
+    box-sizing: border-box;
+}
+
+.left h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.left h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.left p{
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+    margin-bottom: 45px;
+}
+
+.right{
+    width:50%;
+    background:#6f59ff;
+    position:relative;
+}
+
+.form-box{
+    width:550px;
+    background:white;
+    padding:50px;
+    position:absolute;
+    top:90px;
+    left:-80px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.form-box input{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.form-box textarea{
+    width:100%;
+    height:150px;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.form-box button{
+    background:#333;
+    color:white;
+    padding:15px 40px;
+}
+
+.footer{
+    background:#1d0d5a;
+    text-align:center;
+    padding:80px 0 40px;
+    color:white;
+}
